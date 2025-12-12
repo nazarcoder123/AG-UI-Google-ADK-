@@ -5,7 +5,7 @@ import os
 
 # 1. Set the Environment Variables so the SDK can find them
 os.environ["GOOGLE_GENAI_USE_VERTEXAI"] = "FALSE"
-os.environ["GOOGLE_API_KEY"] =  # Your Actual Key
+os.environ["GOOGLE_API_KEY"] = "AIzaSyBwohyn0xWfm2CXtFG_ovJ4fAIoHGWwKA4" # Your Actual Key
 
 agent = LlmAgent(
     name="assistant",
